@@ -1,5 +1,5 @@
 # A web scraper running on AWS Lambda
-This an example of a web scraper running on AWS Lambda and Lambda Layers. It assumes, that you have [AWS CDK][cdk] and Docker installed. The docker image relies on [serverless-chrome][chromium].
+This is an example of a web scraper running on AWS Lambda and Lambda Layers. It assumes, that you have [AWS CDK][cdk] and Docker installed. The docker image relies on [serverless-chrome][chromium].
 
 ### Create a CDK app enviroment
 
