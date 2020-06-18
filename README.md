@@ -34,7 +34,9 @@ This is an example of a web scraper running on AWS Lambda and Lambda Layers. It 
 
 	cdk deploy
 
+### NOTE
 
+Please note, that by default not the newest version of Chromium is used. If you have a concern about it please update the project accordingly.
 
 [cdk]: https://aws.amazon.com/cdk/
 [chromium]: https://github.com/adieuadieu/serverless-chrome/
