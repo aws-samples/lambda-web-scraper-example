@@ -40,3 +40,14 @@ Please note, that by default not the newest version of Chromium is used. If you 
 
 [cdk]: https://aws.amazon.com/cdk/
 [chromium]: https://github.com/adieuadieu/serverless-chrome/
+
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
+
+
