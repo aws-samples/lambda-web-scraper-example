@@ -59,6 +59,7 @@ class LambdaAppStack(core.Stack):
             timeout=core.Duration.seconds(600),
             runtime=lambdas.Runtime.PYTHON_3_6,
             memory_size=512,
+            environment=dict(PATH="/opt"),
             role = role
         )
 
