@@ -17,7 +17,7 @@ RUN tar -xf Python-3.6.8.tar.xz
 RUN cd Python-3.6.8 ; ./configure --enable-optimizations; make altinstall
 RUN python3.6 -V
 # Install pip
-RUN wget https://bootstrap.pypa.io/get-pip.py
+RUN wget https://bootstrap.pypa.io/pip/3.6/get-pip.py
 RUN python3.6 get-pip.py
 RUN rm get-pip.py
 RUN pip -V
